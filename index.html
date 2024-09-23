@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="global.css">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
 </head>
 
 <body class="h-full">
@@ -124,46 +126,86 @@
     
 
 <div class="flex flex-col lg:flex-row py-10 w-5/6 mx-auto items-center">
-    <div class=" w-5/6 lg:w-1/2 text-white font-bold flex text-center text-start text-8xl">OUR<br/> SOLUTION</div>
-    <div class=" w-5/6 lg:w-1/2">
-        <div>
-            <button class="accordion">#1 DATA</button>
-            <div class="panel">
-            <p>Lorem ipsum...</p>
-            </div>
-        </div>
-        <div>
-            <button class="accordion">#2 SALES</button>
-            <div class="panel">
-            <p>Lorem ipsum...</p>
-            </div>
-        </div>
-        <div>
-            <button class="accordion">#3 PARTNERS</button>
-            <div class="panel">
-            <p>Lorem ipsum...</p>
-            </div>
-        </div>
-        <div>
-            <button class="accordion">#4 CREDIT</button>
-            <div class="panel">
-            <p>Lorem ipsum...</p>
-            </div>
-        </div>
-        <div>
-            <button class="accordion">#5 TRADE FINANCE</button>
-            <div class="panel">
-            <p>Lorem ipsum...</p>
-            </div>
-        </div>
+    <div class=" w-5/6 lg:w-1/2 text-white font-bold flex justify-center text-center lg:text-start text-6xl md:text-8xl ">OUR<br/> SOLUTION</div>
+    <div id="solutionDiv" class=" w-5/6 lg:w-1/2">
         
+        
+        <!-- displaying our solution data and field importing from script.js file-->
         
     </div>
 </div>
-<div>how does it work</div>
-<div>our partners</div>
+<div class="text-white w-5/6 mt-20 mx-auto p-4 flex flex-col text-center gap-3">
+    
+        <div class="text-6xl lg:text-8xl font-bold"> HOW DOES IT WORK</div>
+        <div class="text-2xl lg:text-4xl font-semibold text-cyan-500"> FRNDS B2B COMMERCE ECOSYSTEM FOR EMERGING MARKETS</div>
+
+    <div id="steps" class="flex flex-col lg:flex-row items-center mt-20 gap-10">
+        
+        <!-- displaying steps how does it work importing from script.js file -->
+
+    </div>
+</div>
+<div class="flex flex-col w-5/6 items-center justify-center gap-10  my-20 mx-auto">
+    <div class="text-6xl lg:text-8xl font-bold">
+        OUR PARTNERS
+    </div>
+    <div class="text-red-700">Under development</div>
+    <div class="flex flex-col w-5/6 lg:flex-row">
+        <!-- displaying cards -->
+       <div class="slider-partner overflow-x-auto max-w-5/6">
+        
+
+
+        <div class="slide">
+            <div class="w-1/3 contain"><img src="./Public/perfetti-300.png" alt=""></div>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. .</div>
+        </div>
+
+        <div class="slide">
+            <div class="w-1/3 contain"><img src="./Public/perfetti-300.png" alt=""></div>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. .</div>
+        </div>
+
+         <div class="slide">
+            <div class="w-1/3 contain"><img src="./Public/perfetti-300.png" alt=""></div>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. .</div>
+        </div>
+
+        <div class="slide">
+            <div class="w-1/3 contain"><img src="./Public/perfetti-300.png" alt=""></div>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. .</div>
+        </div>
+        
+        
+       </div>
+    </div>
+</div>
 
 </section >
+
+<section style="background-image: url(./Public/background-c.jpg); background-size: cover;">
+<div class="text-white w-5/6 py-40 mx-auto p-4 flex flex-col lg:flex-row gap-5">
+    <div class="w-5/6 lg:w-2/5  flex flex-col mx-auto gap-5">
+        <div class="text-6xl lg:text-8xl font-bold">OUR TECH</div>
+        <div class="text-2xl lg:text-4xl font-semibold text-cyan-500">frnds platform</div>
+        <div class="flex flex-col text-start text-l lg:text-xl">
+            <div class="flex gap-2"><div class="text-yellow-600 text-2xl">></div> <div class="">Unique technology platform designed from the ground-up to fit the unique requirements of emerging market value chains</div></div>
+            <div class="flex gap-2"><div class="text-yellow-600 text-2xl">></div> <div class="">Cloud, big data and multi-tenant architecture</div></div>
+            <div class="flex gap-2"><div class="text-yellow-600 text-2xl">></div> <div class="">Advanced AI, credit scoring & propensity algorithms for entire emerging markets value chains</div></div>
+            <div class="flex gap-2"><div class="text-yellow-600 text-2xl">></div> <div class="">21 patents</div> </div>
+            <div class="flex gap-2"><div class="text-yellow-600 text-2xl">></div> <div class="">Highly scalable - Proven record of over 20 million users</div></div>
+            <div class="flex gap-2"><div class="text-yellow-600 text-2xl">></div> <div class="">Microsoft selected &frnds as their technology partner for emerging markets value chains & selling our platform.</div></div>
+
+        </div>
+    </div>
+    <div style="background-image: url(./Public/computer-img); background-size: cover;" class="w-5/6 lg:w-3/5 mx-auto contain">
+        
+            <img src="./Public/phone1.png" alt="">
+        
+    </div>
+</div>
+
+</section>
 
 
 
