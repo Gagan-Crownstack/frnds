@@ -84,16 +84,16 @@ li:hover{
     padding: 10px;
   }
 
-  .slide{
+  .container{
+    /* max-width: 1200px; */
     display: flex;
-    max-width: 300px;
-    background-color: white;
-    padding-left: 20px;
+    /* background-color: #0ba4bb; */
+    height: 450px;
+    width: 100%;
   }
-  .slider-partner{
-
-  overflow-x:hidden
-  }
+ 
+  
+  
 
   @media screen and (max-width: 786px) {
     .accordion{
